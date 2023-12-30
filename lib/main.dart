@@ -18,15 +18,19 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
+                backgroundImage: AssetImage('images/me.jpg'),
                 radius: 50,
-                child: Image(image: AssetImage('assetName')),
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
                 'Zakaria Na',
-                style: TextStyle(fontSize: 25, color: Colors.white),
+                style: TextStyle(
+                    fontSize: 30,
+                    color: Colors.white,
+                    fontFamily: "Amithen",
+                    fontWeight: FontWeight.w500),
               ),
               Text(
                 'FLUTTER DEVELOPER',
@@ -45,7 +49,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -58,7 +62,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
                 child: ListTile(
                   leading: Icon(
                     Icons.mail,
