@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Zakaria Na',
                 style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 35,
                     color: Colors.white,
                     fontFamily: "Amithen",
                     fontWeight: FontWeight.w500),
@@ -70,6 +70,19 @@ class MyApp extends StatelessWidget {
                   ),
                   title: Text(
                     'zaxnasri@gmail.com',
+                    style: TextStyle(color: Colors.blueGrey[600], fontSize: 19),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.file_copy,
+                    color: Colors.blueGrey[600],
+                  ),
+                  title: Text(
+                    'Download CV',
                     style: TextStyle(color: Colors.blueGrey[600], fontSize: 19),
                   ),
                 ),
